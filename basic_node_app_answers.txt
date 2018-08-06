@@ -1,0 +1,11 @@
+1. What is a node module?
+
+A node module is a set of functions that you want to include in your application to help you with some like opening up a file or creating a new directory and much more.
+
+2. What is the main difference between exports and module.exports?
+
+The biggest difference is that module.exports is to be used for when you want your module to be a specific object type, exports you can use for any type of object doesn't have to be specific.
+
+3. Why is using exports recommended?
+
+Exports is recommended to be used because module.exports should be used if you want your module to be a specific object type but exports targets all of them.
